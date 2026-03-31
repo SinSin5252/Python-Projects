@@ -1,0 +1,16 @@
+# Virtuelle Umgebung
+venv/
+.venv/
+Lib/
+Scripts/
+.cfg
+share/
+
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# VS Code Einstellungen
+.vscode/
+
