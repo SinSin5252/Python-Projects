@@ -1,1 +1,20 @@
+Challange Description
+
+The headmaster of a boarding school has installed a sundial with compass winds. To explain the 360° of a compass to his pupils he thinks up an Easter hunt starting from the sundial.
+As the pupils need some exercise each egg should be at least 160m from all others.
+He:
+
+- Hides an egg always on the full degree (e.g. 0° or 37°)
+- Hides exactly one egg on each degree, in total 360 eggs.
+- Observes the distance rule with at least 160m (>= 160m)
+- Moves away from the sundial only when necessary and always as less as possible
+- Moves always clockwise
+- Hides the next egg as close as possible to the last
+- Hides the first egg directly north on 0° 160m from the sundial
+
+Your task is to determine the degree and the distance of each egg.
+When given the number 1 for the first egg – the degree shall be 0 and distance 160.
+
+When given the number 13 for the 13th egg – the degree shall be 299 and distance not smaller than 329,2661.
+And for any other given number between 1 and 360 for the hidden egg - you can return the correct degree and distance.
 
